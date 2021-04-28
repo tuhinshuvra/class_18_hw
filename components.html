@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="title" content="Tuhin Shuvra">
+		<meta name="description" content="Personal site for media branding and freelancing">
+		<meta name="keywords" content="Tuhin shuvra, personal, Branding, media, freelancing, tumpa, shoumik">
+		<meta name="robots" content="index, follow">
+		<!-- CSS Link -->
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/media.css">
+		<title>Class-18 HW : Bootstrap5 Components</title>
+	</head>
+	
+	<body>
+		<div class="container">
+			<!-- ---------------------------------top menu start------------------------------ -->
+			<section>
+				<h3 align="center" class="bg-secondary">Class-18 Home Work: Bootstrap5 Part-5</h3>
+				<div class="container-fluid">
+					<a href="index.html" class="btn btn-success">Home</a>
+					<a href="class_discussion.html" class="btn btn-primary">Class Discussion</a>
+					<a href="components.html" class="btn btn-success">Components</a>
+					<a href="layout_show-hide.html" class="btn btn-primary">Layout & Show-hide</a>
+					<a href="about_me.html" class="btn btn-success">About Me</a>
+				</div>
+			</section>
+			<h2 class="text-center">Components Home Work</h2>
+			<!-- collapse start -->
+			<h3 class="text-center bg-secondary">Components : Collapse </h3>
+			
+			<section>
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12">
+							<p>
+								<a class="btn btn-primary" data-bs-toggle="collapse" href="#colex1" role="button" aria-expanded="false" aria-controls="colex1">
+									Collapse with Link
+								</a>
+								<button class="btn btn-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#colex2" aria-expanded="false" aria-controls="colex2">
+								Collapse With Button
+								</button>
+								<button class="btn btn-success" type="button" data-bs-toggle="collapse" data-bs-target=".multicollpse" aria-expanded="false" aria-controls="colex1 colex2">
+								Multi Collapse With Button
+								</button>
+							</p>
+							<div class="row">
+								<div class="col">
+									<div class="collapse multicollpse" id="colex1">
+										<div class="card card-body">
+											<h3 class="text-center">Collapse Text One</h3>
+											<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus earum eveniet perferendis voluptatum, optio. Recusandae cupiditate eaque illo exercitationem ipsum fuga et! Ullam dolorem esse error iusto sunt sapiente repellendus fuga magni quo, est ab! Quidem suscipit eligendi illo veniam enim, est hic nesciunt repellendus? Officiis asperiores mollitia ex eligendi.</p>
+										</div>
+									</div>
+								</div>
+								<div class="col">
+									<div class="collapse multicollpse" id="colex2">
+										<div class="card card-body">
+											<h3 class="text-center">Collapse Text Two</h3>
+											<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus earum eveniet perferendis voluptatum, optio. Recusandae cupiditate eaque illo exercitationem ipsum fuga et! Ullam dolorem esse error iusto sunt sapiente repellendus fuga magni quo, est ab! Quidem suscipit eligendi illo veniam enim, est hic nesciunt repellendus? Officiis asperiores mollitia ex eligendi.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			</section>
+			<!-- collapse end -->
+			<!-- modal start -->
+			<h3 class="text-center bg-secondary">Components : Modal </h3>
+			<!-- Button trigger modal -->
+			<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exModal">Modal Practice</button>
+			<!-- Modal -->
+			<div class="modal fade" id="exModal" data-bs-backdrop="static" tabindex="-1" aria-labelledby="exModalLb1" aria-hidden="true">
+				<div class="modal-dialog modal-dialog-scrollable">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exModalLb1">This is Header</h5>
+							<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+						</div>
+						<div class="modal-body">
+							<h3 class="text-center">Modal body</h3>
+							<p>Lorem, ipsum dolor, sit amet consectetur adipisicing elit. Assumenda dolore nesciunt quia provident fuga rem sequi ducimus ad, mollitia culpa! Lorem ipsum dolor sit, amet consectetur adipisicing, elit. Cupiditate inventore pariatur unde repellat, dignissimos odit. Similique sequi eligendi error neque, dolorum expedita aperiam delectus, asperiores est blanditiis a tempore voluptas illo necessitatibus natus. Odio tempore, quos maxime sapiente vel nemo, accusamus amet odit itaque ad non ullam deleniti, ut ipsa aut fuga modi eos! Similique commodi saepe quae amet necessitatibus quidem ut neque atque cum maxime laborum suscipit sequi sint dolorem, natus odit eius repellendus ullam a optio laudantium deleniti ea? Ratione, nisi eveniet, enim, numquam vero cupiditate quaerat ducimus placeat accusamus, neque nihil adipisci! Itaque eum similique accusantium tempora ipsum vero inventore saepe expedita alias ex, excepturi fuga voluptatibus quisquam, minus. Molestiae numquam optio dolore adipisci molestias blanditiis minus nostrum libero neque, quis, sunt similique aut nam, dolor natus commodi incidunt eligendi deleniti, nisi tempora voluptatem dignissimos reprehenderit dolorem! Voluptatum a eaque quidem esse neque autem ea nisi! Sequi reiciendis ad laudantium beatae blanditiis culpa minus iusto eligendi repudiandae? Assumenda, eos. Deleniti corporis a similique non excepturi modi quibusdam commodi illo. Sequi labore tempore officia, sapiente quis error alias, vel, illum consequuntur ea expedita dicta, quam dolores neque accusamus! Nesciunt at dolor corporis repellendus obcaecati, necessitatibus quidem. Tempora, ea. </p>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+							<button type="button" class="btn btn-primary">Save changes</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- modal end -->
+			
+			<!-- navs andt tabs start -->
+			<h3 class="text-center bg-secondary">Components : Navs and Tabs </h3>
+			
+			<!-- <ul class="nav justify-content-start"> -->
+			<!-- <ul class="nav justify-content-center"> -->
+			<!-- <ul class="nav justify-content-end"> -->
+			<!-- <ul class="nav flex-md-column"> -->
+			<!-- <ul class="nav nav-tabs"> -->
+			<!-- <ul class="nav nav-pills nav-fill"> -->
+			<ul class="nav nav-pills nav-justified pb-5">
+				<li class="nav-item">
+					<a class="nav-link active" aria-current="page" href="#">Active</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Link</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Link</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+				</li>
+			</ul>
+			<!-- navs and tabs end -->
+			<h3 class="text-center bg-secondary">Components : Offcanvas</h3>
+			<section>
+				<div class="container">
+					<div class="row pb-5">
+						<div class="col-lg-12">
+							<!-- pffcamvas tabs start -->
+							<a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offex" role="button" aria-controls="offex">
+								Link with href
+							</a>
+							<button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offex" aria-controls="offex">
+							Button with data-bs-target
+							</button>
+							<div class="offcanvas offcanvas-start pb-2" tabindex="-1" id="offex" aria-labelledby="offcanvasExampleLabel">
+								<div class="offcanvas-header">
+									<h5 class="offcanvas-title" id="offexLabel">Offcanvas</h5>
+									<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+								</div>
+								<div class="offcanvas-body">
+									<div>
+										Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
+									</div>
+									<div class="dropdown mt-3">
+										<button class="btn btn-secondary dropdown-toggle" type="button" id="ddMenuBtn" data-bs-toggle="dropdown">
+										Dropdown button
+										</button>
+										<ul class="dropdown-menu" aria-labelledby="ddMenuBtn">
+											<li><a class="dropdown-item" href="#">Action</a></li>
+											<li><a class="dropdown-item" href="#">Another action</a></li>
+											<li><a class="dropdown-item" href="#">Something else here</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- pagination start -->
+		
+		<section class="pb-5">
+			<div class="container">
+				<h3 class="text-center bg-secondary">Components : pagination</h3>
+				<div class="row">
+					<div class="col-lg-12">
+						<nav aria-label="...">
+							<!-- <ul class="pagination"> -->
+							<!-- <ul class="pagination pagination-lg"> -->
+							<!-- <ul class="pagination pagination-sm"> -->
+							<!-- <ul class="pagination justify-content-lg-start"> -->
+							<ul class="pagination justify-content-lg-center">
+								<li class="page-item disabled">
+									<a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+								</li>
+								<li class="page-item"><a class="page-link" href="#">1</a></li>
+								<li class="page-item active" aria-current="page">
+									<a class="page-link" href="#">2</a>
+								</li>
+								<li class="page-item"><a class="page-link" href="#">3</a></li>
+								<li class="page-item">
+									<a class="page-link" href="#">Next</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+	<!-- pagination end -->
+	
+	<!-- Scrollspy start -->
+	<section class="pb-5 border-success">
+		<div class="container">
+			<h3 class="text-center bg-secondary">Components : Scrollspy</h3>
+			<div class="row">
+				<div class="col-lg-6">
+					<nav id="navbarex2" class="navbar navbar-light bg-light px-3">
+						<a class="navbar-brand" href="#">Navbar</a>
+						<ul class="nav nav-pills">
+							<li class="nav-item">
+								<a class="nav-link" href="#fat">@fat</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#mdo">@mdo</a>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+								<ul class="dropdown-menu dropdown-menu-end">
+									<li><a class="dropdown-item" href="#one">one</a></li>
+									<li><a class="dropdown-item" href="#two">two</a></li>
+									<li><hr class="dropdown-divider"></li>
+									<li><a class="dropdown-item" href="#three">three</a></li>
+								</ul>
+							</li>
+						</ul>
+					</nav>
+					<div class="h-50" data-bs-spy="scroll" data-bs-target="#navbarex2" data-bs-offset="0" tabindex="0">
+						<h4 id="fat">@fat</h4>
+						<p>Lorem, ipsum dolor, sit amet consectetur adipisicing elit. Soluta est ducimus quisquam id eaque quia sit aspernatur magni ipsum adipisci dicta assumenda eveniet qui eum dignissimos, dolorem facere atque nesciunt. Eveniet nostrum placeat ipsam quam quae earum eligendi iste asperiores ut! A molestiae, beatae velit voluptates rem qui! Fugit, minima....</p>
+						
+						<h4 id="mdo">@mdo</h4>
+						<p>Lorem ipsum, dolor sit amet, consectetur adipisicing elit. Voluptatem nihil odit excepturi, illo distinctio omnis velit sint nobis, aperiam earum ducimus pariatur doloribus iusto nisi porro quia, voluptatum corrupti consequuntur suscipit animi. Blanditiis eligendi perferendis voluptatum fuga obcaecati praesentium facilis maxime? Autem, explicabo quis officia neque voluptatibus alias. A, ullam....</p>
+						
+						<h4 id="one">one</h4>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ducimus ipsam reprehenderit, necessitatibus quod laudantium doloremque porro provident autem sapiente optio, nobis minus incidunt repudiandae eius assumenda iusto tempore eum pariatur, deleniti reiciendis a numquam obcaecati? Labore, culpa delectus beatae reiciendis dicta ratione magni voluptatem animi, in maxime placeat blanditiis!...</p>
+						
+						<h4 id="two">two</h4>
+						<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam laboriosam in nobis asperiores a perspiciatis, quam sed voluptatibus quo sapiente eos suscipit aspernatur nesciunt assumenda perferendis nihil dolorum modi. Deserunt, quos ipsam et, dolore aliquid molestias veritatis assumenda, earum expedita laboriosam aliquam atque a laudantium perferendis mollitia pariatur recusandae facilis....</p>
+						
+						<h4 id="three">three</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum et earum, expedita tempora magni, hic eius, repellat rem quas perspiciatis maxime eos libero soluta. Explicabo saepe sunt asperiores error, voluptas inventore soluta omnis eaque optio facere ipsa maxime eligendi suscipit iste, id quos velit non mollitia excepturi aut. Consectetur, pariatur....</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	
+</div>
+<!-- JS Link -->
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
